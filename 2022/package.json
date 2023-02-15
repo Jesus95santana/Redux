@@ -1,0 +1,13 @@
+{
+	"name": "root",
+	"version": "1.0.0",
+	"description": "root package",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"updateCheck": "(cd dummy && npm outdated); (cd 4_25_redux_advance && npm outdated); (cd 4_13_actions && npm outdated); (cd redux_example && npm outdated); (cd 4_29_todolist && npm outdated); (cd 4_14_reactredux && npm outdated); (cd 4_18_creatingStores && npm outdated);",
+		"updateAll": " (cd dummy && npm update); (cd 4_25_redux_advance && npm update); (cd 4_13_actions && npm update); (cd redux_example && npm update); (cd 4_29_todolist && npm update); (cd 4_14_reactredux && npm update); (cd 4_18_creatingStores && npm update);"
+	},
+	"author": "",
+	"license": "ISC"
+}
